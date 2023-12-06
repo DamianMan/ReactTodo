@@ -1,0 +1,95 @@
+.fa-solid {
+    margin: 0 10px;
+    border: 0;
+    background-color: transparent;
+    color: rgb(240, 248, 255);
+    opacity: 0.8;
+}
+
+.fa-solid:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.Todolist-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f32929;
+    padding: 30px 0;
+    height: auto;
+    width: 545px;
+    border-radius: 10px;
+    box-shadow: -7px -7px 14px #747474,
+        7px 7px 14px #ffffff;
+}
+
+.Todo {
+
+    background-color: rgb(246, 94, 94);
+    padding: 5px;
+    height: 60px;
+    width: 98.2%;
+    border: 0.5px solid #ffffffad;
+    color: aliceblue;
+    column-count: 2;
+    margin: 1px;
+}
+
+h1,
+p,
+.Todo-label {
+    color: aliceblue;
+}
+
+
+.Todo-start {
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.Todo-btns-end {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.Todo-hr {
+    margin-bottom: 50px;
+    width: 80%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.464), rgb(255, 255, 255), rgba(255, 255, 255, 0.58));
+}
+
+.Todo-form {
+    margin-top: 30px;
+}
+
+
+.Todo-input {
+    border: 0;
+    width: 250px;
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 3px;
+}
+
+.Todo-btn-form {
+    border: 1px solid #ffffffb2;
+    background-color: transparent;
+    height: 33px;
+    color: rgba(240, 248, 255, 0.846);
+    cursor: pointer;
+}
+
+.Todo-edit-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 70px;
+    margin: 30px;
+}
